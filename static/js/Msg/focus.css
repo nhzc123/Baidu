@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+/*提示文字样式*/
+#HintMsg{
+	width:271px;
+	position:absolute;
+	display:none;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#HintMsg li{
+float:none;
+}
+
+#HintMsg .HintTop{
+	height:9px;
+	overflow:hidden;
+	background-image: url(hintbg1.gif);
+	background-repeat: no-repeat;
+}
+#HintMsg .HintInfo{padding:0 5px;border-left:1px solid #000;border-right:1px solid #000;background:#FFFFE1;line-height:1.5em;}
+#HintMsg .HintInfo b{display:block;margin-bottom:6px;padding-left:15px;background:url(hint.gif) left center no-repeat;height:13px;line-height:16px;}
+#HintMsg .HintInfo b span{display:block;float:right;text-indent:-9999px;background:url(close.gif) no-repeat;width:12px;height:12px;cursor:pointer;}
+#HintMsg .HintFooter{
+	height:22px;
+	background-image: url(hintbg2.gif);
+	background-repeat: no-repeat;
+}

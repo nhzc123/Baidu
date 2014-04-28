@@ -1,0 +1,35 @@
+<html>
+<head>
+ <script type="text/javascript" src="../configuration/js/jquery-1.7.2.min.js"></script>
+ <script>
+ 
+ function getHtml()
+ {
+		$.ajax( {
+											type : "get",
+											url : "summaryAjax.php",
+											timeout : 30000,
+											success : function(data) {
+
+											alert(data);
+
+
+											
+
+
+
+
+										}
+										});
+ }
+ 
+ </script>
+</head>
+
+<body>
+<input  value="fsdf" onclick="getHtml()"></input>
+
+</body>
+
+
+</html>

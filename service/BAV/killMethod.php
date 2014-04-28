@@ -1,0 +1,1 @@
+<?php/*** edit by charles.nhzc  *    at 2013-06-06*Email:charles.nhzc@gmail.com**/	//获得killMethod页面的所有comment		$datamodel=BAV::getComment("killMethod");	$killMethod=$datamodel['comment'];				//-----------------------------------------------------------?>
